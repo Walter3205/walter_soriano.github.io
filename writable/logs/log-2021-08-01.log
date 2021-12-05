@@ -1,0 +1,64 @@
+CRITICAL - 2021-08-01 10:51:39 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\Dymstudio\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `manteni...')
+#1 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `manteni...')
+#2 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `manteni...')
+#3 C:\xampp\htdocs\Dymstudio\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `manteni...', Array, false)
+#4 C:\xampp\htdocs\Dymstudio\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Dymstudio\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(120): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->welcome()
+#8 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#9 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-01 17:30:54 --> Undefined variable: data
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-01 17:31:07 --> Undefined variable: data
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-01 17:32:36 --> Undefined property: App\Controllers\Users::$encrypter
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postlogin()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-01 17:34:41 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\posts\edit.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/posts/edi...', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(31): view('Admin/posts/edi...', Array)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(272): App\Controllers\Blog->loadViews('posts/edit', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->edit('1')
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-01 18:09:44 --> Undefined variable: miniatura
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(427): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 427, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->update('8')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-01 19:04:51 --> Unknown column 'users.name' in 'field list'
+#0 C:\xampp\htdocs\Dymstudio\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `posts`....')
+#1 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`....')
+#2 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`....')
+#3 C:\xampp\htdocs\Dymstudio\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `posts`....', Array, false)
+#4 C:\xampp\htdocs\Dymstudio\app\Models\CustomModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(40): App\Models\CustomModel->PostsBlog()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#8 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

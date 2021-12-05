@@ -1,0 +1,134 @@
+CRITICAL - 2021-08-04 19:43:35 --> Undefined property: stdClass::$post_id
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 19:52:24 --> Undefined variable: tags
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 20:18:44 --> array_push() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(51): array_push(Object(stdClass), Array)
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-04 20:19:27 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 20:20:07 --> Undefined offset: 0
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 20:54:23 --> Trying to get property 'tag_name' of non-object
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 20:55:21 --> Undefined index: tag_name
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 20:56:54 --> Undefined index: tasg
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 21:09:11 --> Undefined index: tag_name
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 21:10:18 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 21:45:19 --> Call to undefined method stdClass::append()
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-04 21:47:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-04 21:56:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-04 22:00:20 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 22:00:56 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-04 22:13:01 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-04 22:27:16 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-04 22:41:36 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-04 22:41:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-04 22:46:32 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,36 @@
+CRITICAL - 2021-05-27 19:36:25 --> Table 'dymstudio.mantenimientos' doesn't exist in engine
+#0 C:\xampp\htdocs\Dymstudio\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Dymstudio\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Dymstudio\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Dymstudio\app\Controllers\Home.php(25): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-27 19:42:05 --> unlink(images/1613845461_5dc902d11417e44b6c75.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/1...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(78): unlink('images/16138454...')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->background()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 19:45:02 --> unlink(images/logo_transparent V2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/l...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(163): unlink('images/logo_tra...')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->logo()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 19:50:39 --> unlink(images/avatars/1613845835_0555aecfd4dd550d62cb.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/a...', 'C:\\xampp\\htdocs...', 310, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(310): unlink('images/avatars/...')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postprofile()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

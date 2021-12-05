@@ -1,0 +1,127 @@
+CRITICAL - 2021-03-11 09:00:39 --> Undefined variable: segment
+#0 /home/dimasfer44/public_html/dymstudio.dev/app/Views/Admin/layout/header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dimasfer4...', 72, Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include('/home/dimasfer4...')
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/layout/he...', Array, true)
+#3 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(21): view('Admin/layout/he...', Array)
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(53): App\Controllers\Mail->loadViews('mail/show', Array)
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('7')
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 10:36:50 --> Call to undefined method App\Models\ContactModel::pager
+#0 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Home.php(43): CodeIgniter\Model->__call('pager', Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 20:02:42 --> Call to undefined method CodeIgniter\Pager\Pager::setSurroundCount()
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include()
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/dashboard', Array, true)
+#2 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Home.php(49): view('Admin/dashboard', Array)
+#3 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#4 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 20:03:23 --> Call to undefined method CodeIgniter\Pager\Pager::hasPrevious()
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include()
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/dashboard', Array, true)
+#2 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Home.php(49): view('Admin/dashboard', Array)
+#3 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#4 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 20:28:59 --> Undefined variable: pager
+#0 /home/dimasfer44/public_html/dymstudio.dev/app/Views/Admin/mail/show.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dimasfer4...', 39, Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include('/home/dimasfer4...')
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/mail/show', Array, true)
+#3 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(22): view('Admin/mail/show', Array)
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(54): App\Controllers\Mail->loadViews('mail/show', Array)
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('4')
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 20:29:05 --> Undefined variable: pager
+#0 /home/dimasfer44/public_html/dymstudio.dev/app/Views/Admin/mail/show.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dimasfer4...', 39, Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include('/home/dimasfer4...')
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/mail/show', Array, true)
+#3 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(22): view('Admin/mail/show', Array)
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(54): App\Controllers\Mail->loadViews('mail/show', Array)
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('4')
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 20:31:20 --> Call to a member function links() on null
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include()
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/mail/show', Array, true)
+#2 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(22): view('Admin/mail/show', Array)
+#3 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(55): App\Controllers\Mail->loadViews('mail/show', Array)
+#4 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('4')
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-11 20:36:07 --> Undefined offset: 4
+#0 /home/dimasfer44/public_html/dymstudio.dev/app/Views/Admin/mail/show.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/dimasfer4...', 45, Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include('/home/dimasfer4...')
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/mail/show', Array, true)
+#3 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(22): view('Admin/mail/show', Array)
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(56): App\Controllers\Mail->loadViews('mail/show', Array)
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('4')
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 20:37:48 --> Undefined variable: mail
+#0 /home/dimasfer44/public_html/dymstudio.dev/app/Views/Admin/mail/show.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dimasfer4...', 46, Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include('/home/dimasfer4...')
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/mail/show', Array, true)
+#3 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(22): view('Admin/mail/show', Array)
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(56): App\Controllers\Mail->loadViews('mail/show', Array)
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('4')
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 21:07:22 --> Array to string conversion
+#0 /home/dimasfer44/public_html/dymstudio.dev/app/Views/Admin/mail/show.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/dimasfer4...', 40, Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include('/home/dimasfer4...')
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/mail/show', Array, true)
+#3 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(22): view('Admin/mail/show', Array)
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(55): App\Controllers\Mail->loadViews('mail/show', Array)
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('5')
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 21:07:52 --> Trying to get property 'id' of non-object
+#0 /home/dimasfer44/public_html/dymstudio.dev/app/Views/Admin/mail/show.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/dimasfer4...', 40, Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/View/View.php(246): include('/home/dimasfer4...')
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/mail/show', Array, true)
+#3 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(22): view('Admin/mail/show', Array)
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(55): App\Controllers\Mail->loadViews('mail/show', Array)
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('5')
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 21:13:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(id)
+FROM `contacts`
+WHERE `created_at` <= '2021-03-10 19:00:11'
+AND `id` <> '5'' at line 1
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT FIRST(id...')
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FIRST(id...')
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FIRST(id...')
+#3 /home/dimasfer44/public_html/dymstudio.dev/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT FIRST(id...', Array, false)
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Models/CustomModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Mail.php(51): App\Models\CustomModel->getPrevMail('5', '2021-03-10 19:0...')
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Mail->mail('5')
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mail))
+#8 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

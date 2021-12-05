@@ -1,0 +1,99 @@
+CRITICAL - 2021-07-31 16:25:27 --> Undefined variable: success
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\tags\index.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/tags/inde...', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(28): view('Admin/tags/inde...', Array)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(45): App\Controllers\Tags->loadViews('tags/index', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->index()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-31 16:46:37 --> Undefined property: App\Controllers\Tags::$session
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->index()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 16:47:51 --> Undefined property: App\Controllers\Tags::$session
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->index()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 16:50:36 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->index()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-31 16:53:18 --> Undefined property: App\Controllers\Tags::$session
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->index()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 16:55:02 --> Undefined property: App\Controllers\Tags::$session
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->index()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 17:01:10 --> Undefined property: App\Controllers\Tags::$session
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->index()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 17:06:19 --> Undefined property: App\Controllers\Tags::$session
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 199, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->destroy('6')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 17:07:56 --> Undefined property: App\Controllers\Tags::$session
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Tags.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->store()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 17:08:44 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->store()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-31 17:27:06 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Tags->destroy('9')
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-31 18:09:51 --> Undefined property: App\Controllers\Blog::$session
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->index()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 21:34:09 --> Call to undefined method App\Models\PostsModel::fisrt
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Categories.php(177): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Categories->destroy('2')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-31 21:34:09 --> Call to undefined method App\Models\PostsModel::fisrt
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Categories.php(177): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Categories->destroy('2')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

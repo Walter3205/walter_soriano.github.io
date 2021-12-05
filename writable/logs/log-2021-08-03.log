@@ -1,0 +1,10 @@
+CRITICAL - 2021-08-03 10:07:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Blog\index.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 155, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/index', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(42): view('Blog/index', Array)
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

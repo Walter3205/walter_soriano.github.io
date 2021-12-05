@@ -1,0 +1,45 @@
+CRITICAL - 2021-02-23 07:49:56 --> Class 'App\Controllers\MantenModel' not found
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-23 07:52:15 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Trabajos->update('2')
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajos))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-23 20:13:37 --> Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Dymstudio\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Dymstudio\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(143): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postlogin()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-23 20:16:13 --> Access denied for user '****'@'localhost' (using password: NO)
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/dimasfer44/public_html/dymstudio.dev/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Home.php(20): CodeIgniter\Model->findAll()
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-23 20:16:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/dimasfer44/public_html/dymstudio.dev/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/dimasfer4...', 100, Array)
+#1 /home/dimasfer44/public_html/dymstudio.dev/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Debug/Exceptions.php(299): include('/home/dimasfer4...')
+#3 /home/dimasfer44/public_html/dymstudio.dev/system/Debug/Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

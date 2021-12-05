@@ -1,0 +1,165 @@
+CRITICAL - 2021-08-05 16:31:16 --> Class 'IntlDateFormatter' not found
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Blog\index.php(161): fecha(Object(DateTime))
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/index', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(60): view('Blog/index', Array)
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-05 16:50:13 --> Attempt to modify property 'nname' of non-object
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Blog\index.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to modi...', 'C:\\xampp\\htdocs...', 168, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/index', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(60): view('Blog/index', Array)
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-05 16:50:27 --> Attempt to modify property 'name' of non-object
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Blog\index.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to modi...', 'C:\\xampp\\htdocs...', 168, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/index', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(60): view('Blog/index', Array)
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-05 16:50:54 --> end() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'end() expects p...', 'C:\\xampp\\htdocs...', 168, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Blog\index.php(168): end(NULL)
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/index', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(60): view('Blog/index', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-05 16:51:54 --> end() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'end() expects p...', 'C:\\xampp\\htdocs...', 168, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Blog\index.php(168): end('Etiqueta 4')
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/index', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(60): view('Blog/index', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-05 16:52:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/index', Array, true)
+#2 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(60): view('Blog/index', Array)
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-05 17:04:15 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-05 17:41:01 --> Too few arguments to function App\Models\CustomModel::PostsBlog(), 0 passed in C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php on line 41 and exactly 2 expected
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(41): App\Models\CustomModel->PostsBlog()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-05 17:44:27 --> Undefined property: App\Controllers\Blog::$StudentPagination_Model
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-05 17:44:49 --> Call to undefined method CodeIgniter\Pager\Pager::initialize()
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-05 17:45:42 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(886): App\Controllers\Blog->__construct()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-05 17:47:27 --> Undefined property: App\Controllers\Blog::$load
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(886): App\Controllers\Blog->__construct()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-05 17:47:40 --> Call to undefined method CodeIgniter\Pager\Pager::initialize()
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-05 17:52:05 --> Undefined property: App\Controllers\Blog::$uri
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-05 18:03:34 --> Argument 1 passed to CodeIgniter\Pager\Pager::makeLinks() must be of the type int, string given, called in C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php on line 46
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(46): CodeIgniter\Pager\Pager->makeLinks('blog', 1, 2)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-05 18:15:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7
+#0 C:\xampp\htdocs\Dymstudio\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `posts`....')
+#1 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `posts`....')
+#2 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `posts`....')
+#3 C:\xampp\htdocs\Dymstudio\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `posts`....', Array, false)
+#4 C:\xampp\htdocs\Dymstudio\app\Models\CustomModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(55): App\Models\CustomModel->PostsBlog(1, -1)
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#8 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-05 20:20:40 --> Invalid file: Blog/layout/principla.php
+#0 C:\xampp\htdocs\Dymstudio\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Blog/layout/pri...')
+#1 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/layout/pri...', Array, true)
+#2 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(40): view('Blog/layout/pri...', Array)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(76): App\Controllers\Blog->loadViewsBlog('principla', Array)
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->home()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-05 21:53:34 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Blog\show.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/show', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(40): view('Blog/show', Array)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(101): App\Controllers\Blog->loadViewsBlog('show', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->post('prueba-4')
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-05 21:55:32 --> Undefined variable: name
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Blog\show.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Blog/show', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(40): view('Blog/show', Array)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(102): App\Controllers\Blog->loadViewsBlog('show', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->post('prueba-4')
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

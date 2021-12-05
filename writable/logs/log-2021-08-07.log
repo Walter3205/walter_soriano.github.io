@@ -1,0 +1,26 @@
+CRITICAL - 2021-08-07 10:11:39 --> Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Dymstudio\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Dymstudio\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Home.php(27): CodeIgniter\Model->findAll()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-07 14:01:55 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\xampp\\htdocs...', 695, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(695): unlink('https://hacksto...')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->update('7')
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-07 14:31:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Blog.php(782): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 782, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Blog->update('7')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,6 @@
+CRITICAL - 2021-03-20 14:11:45 --> Class 'App\Controllers\CustomMode' not found
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(886): App\Controllers\Blog->__construct()
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

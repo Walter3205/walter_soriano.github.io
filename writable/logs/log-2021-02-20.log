@@ -1,0 +1,210 @@
+CRITICAL - 2021-02-20 08:34:38 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php on line 134
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(134): view('Admin/profile', Object(stdClass), Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 08:36:56 --> Undefined variable: id
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\profile.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/profile', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(134): view('Admin/profile', Array)
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 08:41:32 --> Undefined variable: firstname
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\profile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/profile', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(134): view('Admin/profile', Array)
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->profile()
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 10:08:07 --> Use of undefined constant active - assumed 'active' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\layout\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Admin\dashboard.php(8): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/dashboard', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Home.php(28): view('Admin/dashboard', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 11:48:00 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(217): App\Controllers\Users->actualizarsession('walter123asg@gm...')
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postprofile()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 12:03:45 --> Undefined variable: file
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 348, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postmanten()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 12:18:57 --> unlink(/images/1613844436_8e6c9d464368130416d3.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/images/...', 'C:\\xampp\\htdocs...', 351, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(351): unlink('/images/1613844...')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postmanten()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 12:20:14 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\xampp\\htdocs...', 351, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(351): unlink('http://localhos...')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postmanten()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 12:23:39 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\xampp\\htdocs...', 351, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(351): unlink('http://localhos...')
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postmanten()
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:06:35 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postlogin()
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:46:48 --> include_once(layout/head.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(la...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): include_once()
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/mantenimi...', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(25): view('Admin/mantenimi...', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->mantenimiento()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 13:48:47 --> include_once(../layout/head.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): include_once()
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/mantenimi...', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(25): view('Admin/mantenimi...', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->mantenimiento()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 13:49:19 --> include_once(../../layout/head.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): include_once()
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/mantenimi...', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(25): view('Admin/mantenimi...', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->mantenimiento()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 13:51:00 --> include(../layout/head.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../layo...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): include()
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/mantenimi...', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(25): view('Admin/mantenimi...', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->mantenimiento()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 13:51:20 --> include(../layout/head.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../layo...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Admin\mantenimientos\mantenimiento.php(2): include()
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/mantenimi...', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(25): view('Admin/mantenimi...', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->mantenimiento()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 13:53:36 --> Call to undefined function App\Controllers\loadViews()
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->mantenimiento()
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#2 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:55:46 --> Undefined variable: user
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\layout\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/layout/he...', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(17): view('Admin/layout/he...')
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Manten.php(32): App\Controllers\Manten->loadViews('mantenimientos/...', Array)
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Manten->mantenimiento()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 19:59:48 --> include_once(layout/head.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\forgot_password\forgot_password.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(la...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\Admin\forgot_password\forgot_password.php(2): include_once()
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/forgot_pa...', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(299): view('Admin/forgot_pa...')
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->forgot_password()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 20:01:25 --> Undefined variable: user
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\layout\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/layout/he...', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(21): view('Admin/layout/he...')
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(299): App\Controllers\Users->loadViews('forgot_password...')
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->forgot_password()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 20:04:39 --> Undefined variable: user
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\layout\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/layout/he...', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(21): view('Admin/layout/he...')
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(299): App\Controllers\Users->loadViews('forgot_password...')
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->forgot_password()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 20:04:44 --> Undefined variable: user
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\layout\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/layout/he...', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(21): view('Admin/layout/he...')
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(299): App\Controllers\Users->loadViews('forgot_password...')
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->forgot_password()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 20:04:49 --> Undefined variable: user
+#0 C:\xampp\htdocs\Dymstudio\app\Views\Admin\layout\header.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('Admin/layout/he...', Array, true)
+#3 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(21): view('Admin/layout/he...')
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(299): App\Controllers\Users->loadViews('forgot_password...')
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->forgot_password()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

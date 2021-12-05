@@ -1,0 +1,8 @@
+CRITICAL - 2021-03-09 20:53:37 --> syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';'
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/Common.php(1087): CodeIgniter\View\View->render('Admin/dashboard', Array, true)
+#1 /home/dimasfer44/public_html/dymstudio.dev/app/Controllers/Home.php(46): view('Admin/dashboard', Array)
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#3 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

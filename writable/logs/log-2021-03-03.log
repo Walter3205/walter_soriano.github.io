@@ -1,0 +1,11 @@
+CRITICAL - 2021-03-03 20:30:39 --> syntax error, unexpected ')'
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-03-03 23:11:31 --> Call to a member function isValid() on null
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(914): App\Controllers\Manten->postmanten()
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manten))
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

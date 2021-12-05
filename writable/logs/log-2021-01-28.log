@@ -1,0 +1,15 @@
+CRITICAL - 2021-01-28 10:28:37 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-01-28 10:28:51 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-01-28 10:28:59 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}

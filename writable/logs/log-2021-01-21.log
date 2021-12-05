@@ -1,0 +1,11 @@
+CRITICAL - 2021-01-21 21:41:49 --> Undefined variable: title
+#0 C:\xampp\htdocs\Dymstudio\app\Views\layout\header.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\Dymstudio\app\Views\index.php(11): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dymstudio\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dymstudio\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Dymstudio\app\Controllers\Home.php(7): view('index')
+#5 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

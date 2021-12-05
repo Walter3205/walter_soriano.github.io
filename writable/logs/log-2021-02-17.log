@@ -1,0 +1,28 @@
+CRITICAL - 2021-02-17 00:00:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 'image'
+WHERE `users`.`id` IN ('3')' at line 1
+#0 C:\xampp\htdocs\Dymstudio\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\htdocs\Dymstudio\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\htdocs\Dymstudio\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Dymstudio\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(196): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postprofile()
+#8 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-17 00:00:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 'image'
+WHERE `users`.`id` IN ('3')' at line 1
+#0 C:\xampp\htdocs\Dymstudio\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `users` ...')
+#1 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 C:\xampp\htdocs\Dymstudio\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 C:\xampp\htdocs\Dymstudio\system\Database\BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 C:\xampp\htdocs\Dymstudio\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Dymstudio\system\Model.php(553): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\Dymstudio\app\Controllers\Users.php(196): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(914): App\Controllers\Users->postprofile()
+#8 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 C:\xampp\htdocs\Dymstudio\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Dymstudio\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

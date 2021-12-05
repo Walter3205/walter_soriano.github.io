@@ -1,0 +1,11 @@
+CRITICAL - 2020-06-25 19:23:46 --> Class Home does not exist
+#0 /home/dimasfer44/public_html/dymstudio.dev/system/Debug/Toolbar/Collectors/Routes.php(107): ReflectionMethod->__construct('Home', '_remap')
+#1 /home/dimasfer44/public_html/dymstudio.dev/system/Debug/Toolbar/Collectors/BaseCollector.php(318): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 /home/dimasfer44/public_html/dymstudio.dev/system/Debug/Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 /home/dimasfer44/public_html/dymstudio.dev/system/Debug/Toolbar.php(356): CodeIgniter\Debug\Toolbar->run(1593131026.4802, 0.0111, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 /home/dimasfer44/public_html/dymstudio.dev/system/Filters/DebugToolbar.php(75): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 /home/dimasfer44/public_html/dymstudio.dev/system/Filters/Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#6 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(418): CodeIgniter\Filters\Filters->run('', 'after')
+#7 /home/dimasfer44/public_html/dymstudio.dev/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dimasfer44/public_html/dymstudio.dev/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

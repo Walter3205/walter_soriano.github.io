@@ -1,0 +1,90 @@
+[23-Jan-2021 17:37:08 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 32
+[23-Jan-2021 17:37:08 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 48
+[25-Feb-2021 02:40:53 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 32
+[25-Feb-2021 02:41:09 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 32
+[25-Feb-2021 02:41:09 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 48
+[04-Mar-2021 04:23:10 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 32
+[04-Mar-2021 04:23:10 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 48
+[04-Mar-2021 05:04:47 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 32
+[04-Mar-2021 05:04:51 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 32
+[04-Mar-2021 05:04:51 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 48
+[04-Mar-2021 05:51:45 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 33
+[04-Mar-2021 05:51:45 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 49
+[04-Mar-2021 22:04:46 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 33
+[04-Mar-2021 22:04:46 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 49
+[07-Mar-2021 20:33:25 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 34
+[07-Mar-2021 20:33:25 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 50
+[07-Mar-2021 21:17:44 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 34
+[07-Mar-2021 21:17:44 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 50
+[07-Mar-2021 21:35:01 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[07-Mar-2021 21:35:01 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[07-Mar-2021 21:37:35 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[07-Mar-2021 21:37:35 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 03:00:27 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 03:00:27 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 03:06:03 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 03:06:03 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 03:40:38 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 03:40:38 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 03:49:45 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 03:49:45 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 03:51:54 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 03:51:55 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 03:52:31 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 03:52:31 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 04:08:54 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 04:08:54 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 04:14:43 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 04:14:43 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 04:15:34 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 04:15:34 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 04:21:59 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 04:21:59 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 04:29:16 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 04:29:16 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 04:37:50 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 04:37:50 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 14:34:44 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 14:34:44 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 14:55:37 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 14:55:37 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 15:15:31 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 15:15:31 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 21:52:16 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[10-Mar-2021 21:52:16 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[10-Mar-2021 21:52:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\ContactModel' not found in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 58
+[11-Mar-2021 00:18:49 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[11-Mar-2021 00:18:49 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[11-Mar-2021 00:18:49 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\ContactModel' not found in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 58
+[11-Mar-2021 01:32:32 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[11-Mar-2021 01:32:32 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[11-Mar-2021 01:32:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_connect() in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 58
+[11-Mar-2021 01:34:07 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[11-Mar-2021 01:34:07 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[11-Mar-2021 01:43:40 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[11-Mar-2021 01:43:40 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[11-Mar-2021 01:43:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_connect() in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 52
+[11-Mar-2021 01:54:47 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[11-Mar-2021 01:54:47 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[11-Mar-2021 01:54:47 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\ContactModel' not found in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 54
+[11-Mar-2021 02:07:30 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[11-Mar-2021 02:07:30 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[11-Mar-2021 02:18:11 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[11-Mar-2021 02:18:11 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
+[12-Mar-2021 03:40:39 UTC] PHP Notice:  Undefined variable: message in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 35
+[12-Mar-2021 03:40:39 UTC] PHP Notice:  Undefined variable: error in /home/dimasfer44/public_html/dymstudio.dev/public/inc/sendEmail.php on line 51
